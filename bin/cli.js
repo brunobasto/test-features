@@ -8,7 +8,10 @@ var yargs = require('yargs')
 	.usage('test-features [command] [options]')
 	.alias('f', 'feature-files')
 	.alias('v', 'version')
-	.describe('feature-files', 'The glob matching the feature file to be tested')
+	.option('feature-files', {
+		demand: true,
+		describe: 'The glob matching the feature file to be tested'
+	})
 	.describe('version', 'Prints current version')
 	.help('h')
 	.epilog('Copyright 2015')
