@@ -1,6 +1,6 @@
 {
   "name": "test-features",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Framework for testing Cucumber features",
   "homepage": "https://github.com/brunobasto/test-features",
   "main": "tests/functional/runner.js",
